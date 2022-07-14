@@ -51,7 +51,8 @@ On all systems, you can use [`dbrekelmans/browser-driver-installer`](https://git
 to install ChromeDriver and geckodriver locally:
 
     composer require --dev dbrekelmans/bdi
-    vendor/bin/bdi detect drivers
+    vendor/bin/bdi driver:chromedriver (for chrome driver)
+    vendor/bin/bdi driver:geckodriver (for firefox driver)
 
 Panther will detect and use automatically drivers stored in the `drivers/` directory.
 
